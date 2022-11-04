@@ -1,0 +1,72 @@
+body{
+    background-color: orange;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+
+h3{
+    color: red;
+    font-style: italic;
+}
+
+p{
+    color: green;
+}
+
+li {
+    background-color: blueviolet;
+    color: aqua;
+}
+
+li:hover{
+    background-color: blue;
+}
+
+li:nth-child(2n+1){
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: pink;
+}
+
+table{
+   
+}
+td{
+    border: 1px dashed;
+}
+td:nth-child(1){
+    background-color: red;
+}
+
+tr:nth-child(2n+1){
+    background-color: blue;
+}
+tr:nth-child(2n){
+    background-color: violet;
+}
+
+caption{
+    text-align: end;
+}
+
+th{
+    color: white;
+    background-color: grey;
+}
+
+.myli{
+    background-color: red;
+}

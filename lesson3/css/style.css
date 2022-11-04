@@ -1,0 +1,50 @@
+body{
+    background-color: #a48f8f;
+    background-image: url("https://img.freepik.com/premium-photo/big-ben-clock-tower-and-thames-river-london_79295-6837.jpg?w=2000");
+    background-repeat: no-repeat;
+}
+
+div{
+    color: red;
+}
+.text{
+    color: blue;
+    background-color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+#text{
+    color: green;
+}
+
+table, td{
+    border: 1px solid red;
+}
+
+div:hover{
+    background-color: orange;
+}
+
+tr:hover{
+    background-color: greenyellow;
+}
+
+tr:nth-child(2n+1){
+    background-color: green;
+}
+tr:nth-child(2n){
+    background-color: white;
+}
+td:first-child{
+    font-weight: bold;
+}
+
+.ost{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    border: 3px dashed red;
+}
