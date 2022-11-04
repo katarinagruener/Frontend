@@ -1,0 +1,31 @@
+.firstbox{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 3px dotted red;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.text{
+    border: 2px dashed red;
+}
+.container{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+.block{
+    width: 200px;
+    margin-top: 20px;
+    border-left: 5px solid red;
+    padding-left: 10px;
+    margin-left: 20px;
+   
+}
+.shadow{
+    font-size: 3em;
+   font-weight: bold;
+   text-shadow: 2px 0px 5px red;
+}
